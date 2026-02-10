@@ -4,13 +4,13 @@ public class Main{
 
 Aluno a1=new Aluno();
 Aluno a2=new Aluno();
-a1.nome=("Daniel");
-a1.curso=("ADS");
-a1.matricula=("212900");
+a1.setNome("Daniel");
+a1.setCurso("ADS");
+a1.setMatricula("212900");
 a1.exibirDados();
-a2.nome=("Luiz");
-a2.curso=("Arquitetura");
-a2.matricula=("876543");
+a2.setNome("Luiz");
+a2.setCurso("Arquitetura");
+a2.setMatricula("876543");
 a2.exibirDados();
 a1.estarMatriculado();
 
